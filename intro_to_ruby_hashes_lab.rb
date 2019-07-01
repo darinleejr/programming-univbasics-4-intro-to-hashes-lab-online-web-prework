@@ -24,10 +24,12 @@ end
 
 def update_counting_hash(hash, key)
   update_counting_hash = {hash => key}
-  {'Hello' => 1}
-  counter: 5
-  while update_counting_hash[0] do
-    puts update_counting_hash[0]
+  
+  count: 0
+  update_hash = {:apples => 1}
+  
+  while update_hash[0] do
+    puts update_hash[0]
     counter += 1
   end
 end
